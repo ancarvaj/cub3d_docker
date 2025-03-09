@@ -6,4 +6,4 @@ git clone git@github.com:ancarvaj/cub3d.git cub
 echo setting variable DISPLAY=:0
 export DISPLAY=:0
 xhost +SI:localuser:root
-echo execute docker compose up
+docker compose up

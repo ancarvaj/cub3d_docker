@@ -1,0 +1,16 @@
+#!/bin/sh
+su
+apt update -y
+apt install sudo -y
+apt install -y \
+libgl1-mesa-glx \
+libgtk2.0.0 \
+sudo apt install xserver-xorg-core
+sudo apt install xserver-xorg
+sudo apt install xorg
+sudo apt install xorg openbox
+sudo apt install build-essential -y
+sudo apt install libbsd-dev -y
+sudo apt install libx11-dev libxext-dev -y
+sudo apt install make -y
+sudo apt install gcc -y
